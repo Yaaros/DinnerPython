@@ -14,14 +14,14 @@ if __name__ == "__main__":
     urllib3.disable_warnings()
     login_url = 'https://www.benziyun.com/user/login'
     data = {
-        "username": "3039994815@qq.com",
-        "password": "4046665319Yao"
+        "username": "USER",
+        "password": 
     }
     options = webdriver.ChromeOptions()
     options.binary_location = r"E:\chrome-win\chrome.exe"
     driver = webdriver.Chrome(options=options)
     driver.implicitly_wait(2)
-    url_root = "https://www.benziyun.com/study/"
+    url_root = ""
     driver.get(login_url)
     driver.refresh()
     driver.maximize_window()
