@@ -12,7 +12,7 @@ if __name__ == "__main__":
     print("input start and end:\n")
     a,b = (int(i) for i in (input().split()))
     urllib3.disable_warnings()
-    login_url = 'https://www.benziyun.com/user/login'
+    login_url = ''
     data = {
         "username": "USER",
         "password": 
